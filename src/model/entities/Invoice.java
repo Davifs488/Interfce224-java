@@ -30,6 +30,6 @@ public class Invoice {
 	}
 	
 	public Double getTotalPyment() {
-		return getBasicPayment() - getTax();
+		return getBasicPayment() + getTax();
 	}
 }
